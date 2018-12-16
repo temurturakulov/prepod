@@ -20,9 +20,9 @@ namespace Повышение_квалификации {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("Курсы_ОбученяDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("silverHa")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class Курсы_ОбученяDataSet : global::System.Data.DataSet {
+    public partial class silverHa : global::System.Data.DataSet {
         
         private АвторизацияDataTable tableАвторизация;
         
@@ -40,25 +40,25 @@ namespace Повышение_квалификации {
         
         private ФормаОбученияDataTable tableФормаОбучения;
         
-        private global::System.Data.DataRelation relationFK__Курсы__coursType__71D1E811;
+        private global::System.Data.DataRelation relationFK__Курсы__coursType__31EC6D26;
         
-        private global::System.Data.DataRelation relationFK__Курсы__education__72C60C4A;
+        private global::System.Data.DataRelation relationFK__Курсы__education__32E0915F;
         
-        private global::System.Data.DataRelation relationFK__Обучение__coursI__73BA3083;
+        private global::System.Data.DataRelation relationFK__Обучение__coursI__33D4B598;
         
-        private global::System.Data.DataRelation relationFK__Обучение__teache__4AB81AF0;
-        
-        private global::System.Data.DataRelation relationFK_ПользователиАвторизация;
+        private global::System.Data.DataRelation relationFK__Обучение__teache__2F10007B;
         
         private global::System.Data.DataRelation relationFK_ПользователиРоли;
         
-        private global::System.Data.DataRelation relationFK__Преподава__userI__5AEE82B9;
+        private global::System.Data.DataRelation relationFK__Преподава__userI__2C3393D0;
+        
+        private global::System.Data.DataRelation relationFK_ПользователиАвторизация;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        public Курсы_ОбученяDataSet() {
+        public silverHa() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -69,7 +69,7 @@ namespace Повышение_квалификации {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        protected Курсы_ОбученяDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected silverHa(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -246,7 +246,7 @@ namespace Повышение_квалификации {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            Курсы_ОбученяDataSet cln = ((Курсы_ОбученяDataSet)(base.Clone()));
+            silverHa cln = ((silverHa)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -376,21 +376,21 @@ namespace Повышение_квалификации {
                     this.tableФормаОбучения.InitVars();
                 }
             }
-            this.relationFK__Курсы__coursType__71D1E811 = this.Relations["FK__Курсы__coursType__71D1E811"];
-            this.relationFK__Курсы__education__72C60C4A = this.Relations["FK__Курсы__education__72C60C4A"];
-            this.relationFK__Обучение__coursI__73BA3083 = this.Relations["FK__Обучение__coursI__73BA3083"];
-            this.relationFK__Обучение__teache__4AB81AF0 = this.Relations["FK__Обучение__teache__4AB81AF0"];
-            this.relationFK_ПользователиАвторизация = this.Relations["FK_ПользователиАвторизация"];
+            this.relationFK__Курсы__coursType__31EC6D26 = this.Relations["FK__Курсы__coursType__31EC6D26"];
+            this.relationFK__Курсы__education__32E0915F = this.Relations["FK__Курсы__education__32E0915F"];
+            this.relationFK__Обучение__coursI__33D4B598 = this.Relations["FK__Обучение__coursI__33D4B598"];
+            this.relationFK__Обучение__teache__2F10007B = this.Relations["FK__Обучение__teache__2F10007B"];
             this.relationFK_ПользователиРоли = this.Relations["FK_ПользователиРоли"];
-            this.relationFK__Преподава__userI__5AEE82B9 = this.Relations["FK__Преподава__userI__5AEE82B9"];
+            this.relationFK__Преподава__userI__2C3393D0 = this.Relations["FK__Преподава__userI__2C3393D0"];
+            this.relationFK_ПользователиАвторизация = this.Relations["FK_ПользователиАвторизация"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "Курсы_ОбученяDataSet";
+            this.DataSetName = "silverHa";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/Курсы_ОбученяDataSet.xsd";
+            this.Namespace = "http://tempuri.org/silverHa.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableАвторизация = new АвторизацияDataTable();
@@ -409,34 +409,34 @@ namespace Повышение_квалификации {
             base.Tables.Add(this.tableРоли);
             this.tableФормаОбучения = new ФормаОбученияDataTable();
             base.Tables.Add(this.tableФормаОбучения);
-            this.relationFK__Курсы__coursType__71D1E811 = new global::System.Data.DataRelation("FK__Курсы__coursType__71D1E811", new global::System.Data.DataColumn[] {
+            this.relationFK__Курсы__coursType__31EC6D26 = new global::System.Data.DataRelation("FK__Курсы__coursType__31EC6D26", new global::System.Data.DataColumn[] {
                         this.tableВидКурса.idColumn}, new global::System.Data.DataColumn[] {
                         this.tableКурсы.coursTypeIdColumn}, false);
-            this.Relations.Add(this.relationFK__Курсы__coursType__71D1E811);
-            this.relationFK__Курсы__education__72C60C4A = new global::System.Data.DataRelation("FK__Курсы__education__72C60C4A", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationFK__Курсы__coursType__31EC6D26);
+            this.relationFK__Курсы__education__32E0915F = new global::System.Data.DataRelation("FK__Курсы__education__32E0915F", new global::System.Data.DataColumn[] {
                         this.tableФормаОбучения.idColumn}, new global::System.Data.DataColumn[] {
                         this.tableКурсы.educationFormIdColumn}, false);
-            this.Relations.Add(this.relationFK__Курсы__education__72C60C4A);
-            this.relationFK__Обучение__coursI__73BA3083 = new global::System.Data.DataRelation("FK__Обучение__coursI__73BA3083", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationFK__Курсы__education__32E0915F);
+            this.relationFK__Обучение__coursI__33D4B598 = new global::System.Data.DataRelation("FK__Обучение__coursI__33D4B598", new global::System.Data.DataColumn[] {
                         this.tableКурсы.idColumn}, new global::System.Data.DataColumn[] {
                         this.tableОбучение.coursIdColumn}, false);
-            this.Relations.Add(this.relationFK__Обучение__coursI__73BA3083);
-            this.relationFK__Обучение__teache__4AB81AF0 = new global::System.Data.DataRelation("FK__Обучение__teache__4AB81AF0", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationFK__Обучение__coursI__33D4B598);
+            this.relationFK__Обучение__teache__2F10007B = new global::System.Data.DataRelation("FK__Обучение__teache__2F10007B", new global::System.Data.DataColumn[] {
                         this.tableПреподаватели.idColumn}, new global::System.Data.DataColumn[] {
                         this.tableОбучение.teacherIdColumn}, false);
-            this.Relations.Add(this.relationFK__Обучение__teache__4AB81AF0);
-            this.relationFK_ПользователиАвторизация = new global::System.Data.DataRelation("FK_ПользователиАвторизация", new global::System.Data.DataColumn[] {
-                        this.tableАвторизация.idColumn}, new global::System.Data.DataColumn[] {
-                        this.tableПользователи.authIdColumn}, false);
-            this.Relations.Add(this.relationFK_ПользователиАвторизация);
+            this.Relations.Add(this.relationFK__Обучение__teache__2F10007B);
             this.relationFK_ПользователиРоли = new global::System.Data.DataRelation("FK_ПользователиРоли", new global::System.Data.DataColumn[] {
                         this.tableРоли.idColumn}, new global::System.Data.DataColumn[] {
                         this.tableПользователи.roleIdColumn}, false);
             this.Relations.Add(this.relationFK_ПользователиРоли);
-            this.relationFK__Преподава__userI__5AEE82B9 = new global::System.Data.DataRelation("FK__Преподава__userI__5AEE82B9", new global::System.Data.DataColumn[] {
+            this.relationFK__Преподава__userI__2C3393D0 = new global::System.Data.DataRelation("FK__Преподава__userI__2C3393D0", new global::System.Data.DataColumn[] {
                         this.tableПользователи.idColumn}, new global::System.Data.DataColumn[] {
                         this.tableПреподаватели.userIdColumn}, false);
-            this.Relations.Add(this.relationFK__Преподава__userI__5AEE82B9);
+            this.Relations.Add(this.relationFK__Преподава__userI__2C3393D0);
+            this.relationFK_ПользователиАвторизация = new global::System.Data.DataRelation("FK_ПользователиАвторизация", new global::System.Data.DataColumn[] {
+                        this.tableАвторизация.idColumn}, new global::System.Data.DataColumn[] {
+                        this.tableПользователи.authIdColumn}, false);
+            this.Relations.Add(this.relationFK_ПользователиАвторизация);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -498,7 +498,7 @@ namespace Повышение_квалификации {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+            silverHa ds = new silverHa();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -575,9 +575,9 @@ namespace Повышение_квалификации {
             
             private global::System.Data.DataColumn columnid;
             
-            private global::System.Data.DataColumn columnpassword;
-            
             private global::System.Data.DataColumn columnlogin;
+            
+            private global::System.Data.DataColumn columnpassword;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
@@ -622,17 +622,17 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public global::System.Data.DataColumn passwordColumn {
+            public global::System.Data.DataColumn loginColumn {
                 get {
-                    return this.columnpassword;
+                    return this.columnlogin;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public global::System.Data.DataColumn loginColumn {
+            public global::System.Data.DataColumn passwordColumn {
                 get {
-                    return this.columnlogin;
+                    return this.columnpassword;
                 }
             }
             
@@ -673,12 +673,12 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public АвторизацияRow AddАвторизацияRow(string password, string login) {
+            public АвторизацияRow AddАвторизацияRow(string login, string password) {
                 АвторизацияRow rowАвторизацияRow = ((АвторизацияRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
-                        password,
-                        login};
+                        login,
+                        password};
                 rowАвторизацияRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowАвторизацияRow);
                 return rowАвторизацияRow;
@@ -709,8 +709,8 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             internal void InitVars() {
                 this.columnid = base.Columns["id"];
-                this.columnpassword = base.Columns["password"];
                 this.columnlogin = base.Columns["login"];
+                this.columnpassword = base.Columns["password"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -718,10 +718,10 @@ namespace Повышение_квалификации {
             private void InitClass() {
                 this.columnid = new global::System.Data.DataColumn("id", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnid);
-                this.columnpassword = new global::System.Data.DataColumn("password", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnpassword);
                 this.columnlogin = new global::System.Data.DataColumn("login", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnlogin);
+                this.columnpassword = new global::System.Data.DataColumn("password", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnpassword);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AutoIncrement = true;
@@ -730,8 +730,8 @@ namespace Повышение_квалификации {
                 this.columnid.AllowDBNull = false;
                 this.columnid.ReadOnly = true;
                 this.columnid.Unique = true;
-                this.columnpassword.MaxLength = 50;
                 this.columnlogin.MaxLength = 50;
+                this.columnpassword.MaxLength = 50;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -799,7 +799,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1076,7 +1076,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1262,7 +1262,7 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public КурсыRow AddКурсыRow(string coursName, ВидКурсаRow parentВидКурсаRowByFK__Курсы__coursType__71D1E811, int courseVolume, ФормаОбученияRow parentФормаОбученияRowByFK__Курсы__education__72C60C4A) {
+            public КурсыRow AddКурсыRow(string coursName, ВидКурсаRow parentВидКурсаRowByFK__Курсы__coursType__31EC6D26, int courseVolume, ФормаОбученияRow parentФормаОбученияRowByFK__Курсы__education__32E0915F) {
                 КурсыRow rowКурсыRow = ((КурсыRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -1270,11 +1270,11 @@ namespace Повышение_квалификации {
                         null,
                         courseVolume,
                         null};
-                if ((parentВидКурсаRowByFK__Курсы__coursType__71D1E811 != null)) {
-                    columnValuesArray[2] = parentВидКурсаRowByFK__Курсы__coursType__71D1E811[0];
+                if ((parentВидКурсаRowByFK__Курсы__coursType__31EC6D26 != null)) {
+                    columnValuesArray[2] = parentВидКурсаRowByFK__Курсы__coursType__31EC6D26[0];
                 }
-                if ((parentФормаОбученияRowByFK__Курсы__education__72C60C4A != null)) {
-                    columnValuesArray[4] = parentФормаОбученияRowByFK__Курсы__education__72C60C4A[0];
+                if ((parentФормаОбученияRowByFK__Курсы__education__32E0915F != null)) {
+                    columnValuesArray[4] = parentФормаОбученияRowByFK__Курсы__education__32E0915F[0];
                 }
                 rowКурсыRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowКурсыRow);
@@ -1401,7 +1401,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1476,8 +1476,6 @@ namespace Повышение_квалификации {
             private global::System.Data.DataColumn columnendDate;
             
             private global::System.Data.DataColumn columnregistrationNumber;
-            
-            private global::System.Data.DataColumn columneducationId;
             
             private global::System.Data.DataColumn columncoursId;
             
@@ -1556,14 +1554,6 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public global::System.Data.DataColumn educationIdColumn {
-                get {
-                    return this.columneducationId;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public global::System.Data.DataColumn coursIdColumn {
                 get {
                     return this.columncoursId;
@@ -1607,7 +1597,7 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public ОбучениеRow AddОбучениеRow(ПреподавателиRow parentПреподавателиRowByFK__Обучение__teache__4AB81AF0, System.DateTime startDate, System.DateTime endDate, int registrationNumber, int educationId, КурсыRow parentКурсыRowByFK__Обучение__coursI__73BA3083) {
+            public ОбучениеRow AddОбучениеRow(ПреподавателиRow parentПреподавателиRowByFK__Обучение__teache__2F10007B, System.DateTime startDate, System.DateTime endDate, int registrationNumber, КурсыRow parentКурсыRowByFK__Обучение__coursI__33D4B598) {
                 ОбучениеRow rowОбучениеRow = ((ОбучениеRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -1615,13 +1605,12 @@ namespace Повышение_квалификации {
                         startDate,
                         endDate,
                         registrationNumber,
-                        educationId,
                         null};
-                if ((parentПреподавателиRowByFK__Обучение__teache__4AB81AF0 != null)) {
-                    columnValuesArray[1] = parentПреподавателиRowByFK__Обучение__teache__4AB81AF0[0];
+                if ((parentПреподавателиRowByFK__Обучение__teache__2F10007B != null)) {
+                    columnValuesArray[1] = parentПреподавателиRowByFK__Обучение__teache__2F10007B[0];
                 }
-                if ((parentКурсыRowByFK__Обучение__coursI__73BA3083 != null)) {
-                    columnValuesArray[6] = parentКурсыRowByFK__Обучение__coursI__73BA3083[0];
+                if ((parentКурсыRowByFK__Обучение__coursI__33D4B598 != null)) {
+                    columnValuesArray[5] = parentКурсыRowByFK__Обучение__coursI__33D4B598[0];
                 }
                 rowОбучениеRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowОбучениеRow);
@@ -1657,7 +1646,6 @@ namespace Повышение_квалификации {
                 this.columnstartDate = base.Columns["startDate"];
                 this.columnendDate = base.Columns["endDate"];
                 this.columnregistrationNumber = base.Columns["registrationNumber"];
-                this.columneducationId = base.Columns["educationId"];
                 this.columncoursId = base.Columns["coursId"];
             }
             
@@ -1674,8 +1662,6 @@ namespace Повышение_квалификации {
                 base.Columns.Add(this.columnendDate);
                 this.columnregistrationNumber = new global::System.Data.DataColumn("registrationNumber", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnregistrationNumber);
-                this.columneducationId = new global::System.Data.DataColumn("educationId", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columneducationId);
                 this.columncoursId = new global::System.Data.DataColumn("coursId", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columncoursId);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
@@ -1753,7 +1739,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2108,7 +2094,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2264,13 +2250,13 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public ПреподавателиRow AddПреподавателиRow(ПользователиRow parentПользователиRowByFK__Преподава__userI__5AEE82B9) {
+            public ПреподавателиRow AddПреподавателиRow(ПользователиRow parentПользователиRowByFK__Преподава__userI__2C3393D0) {
                 ПреподавателиRow rowПреподавателиRow = ((ПреподавателиRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
                         null};
-                if ((parentПользователиRowByFK__Преподава__userI__5AEE82B9 != null)) {
-                    columnValuesArray[1] = parentПользователиRowByFK__Преподава__userI__5AEE82B9[0];
+                if ((parentПользователиRowByFK__Преподава__userI__2C3393D0 != null)) {
+                    columnValuesArray[1] = parentПользователиRowByFK__Преподава__userI__2C3393D0[0];
                 }
                 rowПреподавателиRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowПреподавателиRow);
@@ -2387,7 +2373,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2596,7 +2582,7 @@ namespace Повышение_квалификации {
                 this.columnid.AllowDBNull = false;
                 this.columnid.ReadOnly = true;
                 this.columnid.Unique = true;
-                this.columnroleName.MaxLength = 255;
+                this.columnroleName.MaxLength = 50;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2664,7 +2650,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2941,7 +2927,7 @@ namespace Повышение_квалификации {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                Курсы_ОбученяDataSet ds = new Курсы_ОбученяDataSet();
+                silverHa ds = new silverHa();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3027,22 +3013,6 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public string password {
-                get {
-                    try {
-                        return ((string)(this[this.tableАвторизация.passwordColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("Значение для столбца \'password\' в таблице \'Авторизация\' равно DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableАвторизация.passwordColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public string login {
                 get {
                     try {
@@ -3059,14 +3029,18 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public bool IspasswordNull() {
-                return this.IsNull(this.tableАвторизация.passwordColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public void SetpasswordNull() {
-                this[this.tableАвторизация.passwordColumn] = global::System.Convert.DBNull;
+            public string password {
+                get {
+                    try {
+                        return ((string)(this[this.tableАвторизация.passwordColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'password\' в таблице \'Авторизация\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableАвторизация.passwordColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3079,6 +3053,18 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public void SetloginNull() {
                 this[this.tableАвторизация.loginColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public bool IspasswordNull() {
+                return this.IsNull(this.tableАвторизация.passwordColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public void SetpasswordNull() {
+                this[this.tableАвторизация.passwordColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3149,11 +3135,11 @@ namespace Повышение_квалификации {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public КурсыRow[] GetКурсыRows() {
-                if ((this.Table.ChildRelations["FK__Курсы__coursType__71D1E811"] == null)) {
+                if ((this.Table.ChildRelations["FK__Курсы__coursType__31EC6D26"] == null)) {
                     return new КурсыRow[0];
                 }
                 else {
-                    return ((КурсыRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Курсы__coursType__71D1E811"])));
+                    return ((КурсыRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Курсы__coursType__31EC6D26"])));
                 }
             }
         }
@@ -3251,10 +3237,10 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public ВидКурсаRow ВидКурсаRow {
                 get {
-                    return ((ВидКурсаRow)(this.GetParentRow(this.Table.ParentRelations["FK__Курсы__coursType__71D1E811"])));
+                    return ((ВидКурсаRow)(this.GetParentRow(this.Table.ParentRelations["FK__Курсы__coursType__31EC6D26"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Курсы__coursType__71D1E811"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Курсы__coursType__31EC6D26"]);
                 }
             }
             
@@ -3262,10 +3248,10 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public ФормаОбученияRow ФормаОбученияRow {
                 get {
-                    return ((ФормаОбученияRow)(this.GetParentRow(this.Table.ParentRelations["FK__Курсы__education__72C60C4A"])));
+                    return ((ФормаОбученияRow)(this.GetParentRow(this.Table.ParentRelations["FK__Курсы__education__32E0915F"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Курсы__education__72C60C4A"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Курсы__education__32E0915F"]);
                 }
             }
             
@@ -3320,11 +3306,11 @@ namespace Повышение_квалификации {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public ОбучениеRow[] GetОбучениеRows() {
-                if ((this.Table.ChildRelations["FK__Обучение__coursI__73BA3083"] == null)) {
+                if ((this.Table.ChildRelations["FK__Обучение__coursI__33D4B598"] == null)) {
                     return new ОбучениеRow[0];
                 }
                 else {
-                    return ((ОбучениеRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Обучение__coursI__73BA3083"])));
+                    return ((ОбучениеRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Обучение__coursI__33D4B598"])));
                 }
             }
         }
@@ -3420,22 +3406,6 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public int educationId {
-                get {
-                    try {
-                        return ((int)(this[this.tableОбучение.educationIdColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("Значение для столбца \'educationId\' в таблице \'Обучение\' равно DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableОбучение.educationIdColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public int coursId {
                 get {
                     try {
@@ -3454,10 +3424,10 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public КурсыRow КурсыRow {
                 get {
-                    return ((КурсыRow)(this.GetParentRow(this.Table.ParentRelations["FK__Обучение__coursI__73BA3083"])));
+                    return ((КурсыRow)(this.GetParentRow(this.Table.ParentRelations["FK__Обучение__coursI__33D4B598"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Обучение__coursI__73BA3083"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Обучение__coursI__33D4B598"]);
                 }
             }
             
@@ -3465,10 +3435,10 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public ПреподавателиRow ПреподавателиRow {
                 get {
-                    return ((ПреподавателиRow)(this.GetParentRow(this.Table.ParentRelations["FK__Обучение__teache__4AB81AF0"])));
+                    return ((ПреподавателиRow)(this.GetParentRow(this.Table.ParentRelations["FK__Обучение__teache__2F10007B"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Обучение__teache__4AB81AF0"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Обучение__teache__2F10007B"]);
                 }
             }
             
@@ -3518,18 +3488,6 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public void SetregistrationNumberNull() {
                 this[this.tableОбучение.registrationNumberColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public bool IseducationIdNull() {
-                return this.IsNull(this.tableОбучение.educationIdColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public void SeteducationIdNull() {
-                this[this.tableОбучение.educationIdColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3668,23 +3626,23 @@ namespace Повышение_квалификации {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public АвторизацияRow АвторизацияRow {
-                get {
-                    return ((АвторизацияRow)(this.GetParentRow(this.Table.ParentRelations["FK_ПользователиАвторизация"])));
-                }
-                set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK_ПользователиАвторизация"]);
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public РолиRow РолиRow {
                 get {
                     return ((РолиRow)(this.GetParentRow(this.Table.ParentRelations["FK_ПользователиРоли"])));
                 }
                 set {
                     this.SetParentRow(value, this.Table.ParentRelations["FK_ПользователиРоли"]);
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public АвторизацияRow АвторизацияRow {
+                get {
+                    return ((АвторизацияRow)(this.GetParentRow(this.Table.ParentRelations["FK_ПользователиАвторизация"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["FK_ПользователиАвторизация"]);
                 }
             }
             
@@ -3763,11 +3721,11 @@ namespace Повышение_квалификации {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public ПреподавателиRow[] GetПреподавателиRows() {
-                if ((this.Table.ChildRelations["FK__Преподава__userI__5AEE82B9"] == null)) {
+                if ((this.Table.ChildRelations["FK__Преподава__userI__2C3393D0"] == null)) {
                     return new ПреподавателиRow[0];
                 }
                 else {
-                    return ((ПреподавателиRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Преподава__userI__5AEE82B9"])));
+                    return ((ПреподавателиRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Преподава__userI__2C3393D0"])));
                 }
             }
         }
@@ -3817,10 +3775,10 @@ namespace Повышение_квалификации {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public ПользователиRow ПользователиRow {
                 get {
-                    return ((ПользователиRow)(this.GetParentRow(this.Table.ParentRelations["FK__Преподава__userI__5AEE82B9"])));
+                    return ((ПользователиRow)(this.GetParentRow(this.Table.ParentRelations["FK__Преподава__userI__2C3393D0"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Преподава__userI__5AEE82B9"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Преподава__userI__2C3393D0"]);
                 }
             }
             
@@ -3839,11 +3797,11 @@ namespace Повышение_квалификации {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public ОбучениеRow[] GetОбучениеRows() {
-                if ((this.Table.ChildRelations["FK__Обучение__teache__4AB81AF0"] == null)) {
+                if ((this.Table.ChildRelations["FK__Обучение__teache__2F10007B"] == null)) {
                     return new ОбучениеRow[0];
                 }
                 else {
-                    return ((ОбучениеRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Обучение__teache__4AB81AF0"])));
+                    return ((ОбучениеRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Обучение__teache__2F10007B"])));
                 }
             }
         }
@@ -3969,11 +3927,11 @@ namespace Повышение_квалификации {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public КурсыRow[] GetКурсыRows() {
-                if ((this.Table.ChildRelations["FK__Курсы__education__72C60C4A"] == null)) {
+                if ((this.Table.ChildRelations["FK__Курсы__education__32E0915F"] == null)) {
                     return new КурсыRow[0];
                 }
                 else {
-                    return ((КурсыRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Курсы__education__72C60C4A"])));
+                    return ((КурсыRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Курсы__education__32E0915F"])));
                 }
             }
         }
@@ -4251,7 +4209,7 @@ namespace Повышение_квалификации {
         }
     }
 }
-namespace Повышение_квалификации.Курсы_ОбученяDataSetTableAdapters {
+namespace Повышение_квалификации.silverHaTableAdapters {
     
     
     /// <summary>
@@ -4376,39 +4334,39 @@ namespace Повышение_квалификации.Курсы_ОбученяD
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "Авторизация";
             tableMapping.ColumnMappings.Add("id", "id");
-            tableMapping.ColumnMappings.Add("password", "password");
             tableMapping.ColumnMappings.Add("login", "login");
+            tableMapping.ColumnMappings.Add("password", "password");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[Авторизация] WHERE (([id] = @Original_id) AND ((@IsNull_passwo" +
-                "rd = 1 AND [password] IS NULL) OR ([password] = @Original_password)) AND ((@IsNu" +
-                "ll_login = 1 AND [login] IS NULL) OR ([login] = @Original_login)))";
+            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[Авторизация] WHERE (([id] = @Original_id) AND ((@IsNull_login " +
+                "= 1 AND [login] IS NULL) OR ([login] = @Original_login)) AND ((@IsNull_password " +
+                "= 1 AND [password] IS NULL) OR ([password] = @Original_password)))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_password", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_login", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_login", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_password", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Авторизация] ([password], [login]) VALUES (@password, @login);" +
-                "\r\nSELECT id, password, login FROM Авторизация WHERE (id = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Авторизация] ([login], [password]) VALUES (@login, @password);" +
+                "\r\nSELECT id, login, password FROM Авторизация WHERE (id = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@login", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Авторизация] SET [password] = @password, [login] = @login WHERE (([id] = @Original_id) AND ((@IsNull_password = 1 AND [password] IS NULL) OR ([password] = @Original_password)) AND ((@IsNull_login = 1 AND [login] IS NULL) OR ([login] = @Original_login)));
-SELECT id, password, login FROM Авторизация WHERE (id = @id)";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Авторизация] SET [login] = @login, [password] = @password WHERE (([id] = @Original_id) AND ((@IsNull_login = 1 AND [login] IS NULL) OR ([login] = @Original_login)) AND ((@IsNull_password = 1 AND [password] IS NULL) OR ([password] = @Original_password)));
+SELECT id, login, password FROM Авторизация WHERE (id = @id)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@login", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_password", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_login", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_login", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "login", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_password", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_password", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -4416,7 +4374,7 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4425,7 +4383,7 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT id, password, login FROM dbo.Авторизация";
+            this._commandCollection[0].CommandText = "SELECT id, login, password FROM dbo.Авторизация";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -4433,7 +4391,7 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.АвторизацияDataTable dataTable) {
+        public virtual int Fill(silverHa.АвторизацияDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4446,9 +4404,9 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.АвторизацияDataTable GetData() {
+        public virtual silverHa.АвторизацияDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.АвторизацияDataTable dataTable = new Курсы_ОбученяDataSet.АвторизацияDataTable();
+            silverHa.АвторизацияDataTable dataTable = new silverHa.АвторизацияDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4456,14 +4414,14 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.АвторизацияDataTable dataTable) {
+        public virtual int Update(silverHa.АвторизацияDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "Авторизация");
         }
         
@@ -4486,23 +4444,23 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_id, string Original_password, string Original_login) {
+        public virtual int Delete(int Original_id, string Original_login, string Original_password) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_id));
-            if ((Original_password == null)) {
+            if ((Original_login == null)) {
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
             else {
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[2].Value = ((string)(Original_password));
+                this.Adapter.DeleteCommand.Parameters[2].Value = ((string)(Original_login));
             }
-            if ((Original_login == null)) {
+            if ((Original_password == null)) {
                 this.Adapter.DeleteCommand.Parameters[3].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             else {
                 this.Adapter.DeleteCommand.Parameters[3].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[4].Value = ((string)(Original_login));
+                this.Adapter.DeleteCommand.Parameters[4].Value = ((string)(Original_password));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -4524,18 +4482,18 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string password, string login) {
-            if ((password == null)) {
+        public virtual int Insert(string login, string password) {
+            if ((login == null)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(password));
+                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(login));
             }
-            if ((login == null)) {
+            if ((password == null)) {
                 this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(login));
+                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(password));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -4557,35 +4515,35 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string password, string login, int Original_id, string Original_password, string Original_login, int id) {
-            if ((password == null)) {
+        public virtual int Update(string login, string password, int Original_id, string Original_login, string Original_password, int id) {
+            if ((login == null)) {
                 this.Adapter.UpdateCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(password));
+                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(login));
             }
-            if ((login == null)) {
+            if ((password == null)) {
                 this.Adapter.UpdateCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[1].Value = ((string)(login));
+                this.Adapter.UpdateCommand.Parameters[1].Value = ((string)(password));
             }
             this.Adapter.UpdateCommand.Parameters[2].Value = ((int)(Original_id));
-            if ((Original_password == null)) {
+            if ((Original_login == null)) {
                 this.Adapter.UpdateCommand.Parameters[3].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[3].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(Original_password));
+                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(Original_login));
             }
-            if ((Original_login == null)) {
+            if ((Original_password == null)) {
                 this.Adapter.UpdateCommand.Parameters[5].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[5].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(Original_login));
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(Original_password));
             }
             this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(id));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
@@ -4608,8 +4566,8 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string password, string login, int Original_id, string Original_password, string Original_login) {
-            return this.Update(password, login, Original_id, Original_password, Original_login, Original_id);
+        public virtual int Update(string login, string password, int Original_id, string Original_login, string Original_password) {
+            return this.Update(login, password, Original_id, Original_login, Original_password, Original_id);
         }
     }
     
@@ -4768,7 +4726,7 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4785,7 +4743,7 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.ВидКурсаDataTable dataTable) {
+        public virtual int Fill(silverHa.ВидКурсаDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4798,9 +4756,9 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.ВидКурсаDataTable GetData() {
+        public virtual silverHa.ВидКурсаDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.ВидКурсаDataTable dataTable = new Курсы_ОбученяDataSet.ВидКурсаDataTable();
+            silverHa.ВидКурсаDataTable dataTable = new silverHa.ВидКурсаDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4808,14 +4766,14 @@ SELECT id, password, login FROM Авторизация WHERE (id = @id)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.ВидКурсаDataTable dataTable) {
+        public virtual int Update(silverHa.ВидКурсаDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "ВидКурса");
         }
         
@@ -5111,43 +5069,39 @@ SELECT id, coursName, coursTypeId, courseVolume, educationFormId FROM Курсы
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT id, coursName, coursTypeId, courseVolume, educationFormId FROM dbo.Курсы";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT id, coursName, coursTypeId, courseVolume, educationFormId FROM dbo.Курсы";
-            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
         }
         
-   /*     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.КурсыDataTable dataTable) {
+        public virtual int Fill(silverHa.КурсыDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
             }
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
-        }*/
+        }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.КурсыDataTable GetData() {
+        public virtual silverHa.КурсыDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.КурсыDataTable dataTable = new Курсы_ОбученяDataSet.КурсыDataTable();
+            silverHa.КурсыDataTable dataTable = new silverHa.КурсыDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5155,27 +5109,14 @@ SELECT id, coursName, coursTypeId, courseVolume, educationFormId FROM Курсы
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(Курсы_ОбученяDataSet.КурсыDataTable dataTable) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
-            if ((this.ClearBeforeFill == true)) {
-                dataTable.Clear();
-            }
-            int returnValue = this.Adapter.Fill(dataTable);
-            return returnValue;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.КурсыDataTable dataTable) {
+        public virtual int Update(silverHa.КурсыDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "Курсы");
         }
         
@@ -5507,12 +5448,11 @@ SELECT id, coursName, coursTypeId, courseVolume, educationFormId FROM Курсы
             tableMapping.ColumnMappings.Add("startDate", "startDate");
             tableMapping.ColumnMappings.Add("endDate", "endDate");
             tableMapping.ColumnMappings.Add("registrationNumber", "registrationNumber");
-            tableMapping.ColumnMappings.Add("educationId", "educationId");
             tableMapping.ColumnMappings.Add("coursId", "coursId");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[Обучение] WHERE (([id] = @Original_id) AND ((@IsNull_teacherId = 1 AND [teacherId] IS NULL) OR ([teacherId] = @Original_teacherId)) AND ((@IsNull_startDate = 1 AND [startDate] IS NULL) OR ([startDate] = @Original_startDate)) AND ((@IsNull_endDate = 1 AND [endDate] IS NULL) OR ([endDate] = @Original_endDate)) AND ((@IsNull_registrationNumber = 1 AND [registrationNumber] IS NULL) OR ([registrationNumber] = @Original_registrationNumber)) AND ((@IsNull_educationId = 1 AND [educationId] IS NULL) OR ([educationId] = @Original_educationId)) AND ((@IsNull_coursId = 1 AND [coursId] IS NULL) OR ([coursId] = @Original_coursId)))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[Обучение] WHERE (([id] = @Original_id) AND ((@IsNull_teacherId = 1 AND [teacherId] IS NULL) OR ([teacherId] = @Original_teacherId)) AND ((@IsNull_startDate = 1 AND [startDate] IS NULL) OR ([startDate] = @Original_startDate)) AND ((@IsNull_endDate = 1 AND [endDate] IS NULL) OR ([endDate] = @Original_endDate)) AND ((@IsNull_registrationNumber = 1 AND [registrationNumber] IS NULL) OR ([registrationNumber] = @Original_registrationNumber)) AND ((@IsNull_coursId = 1 AND [coursId] IS NULL) OR ([coursId] = @Original_coursId)))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_teacherId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "teacherId", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
@@ -5523,31 +5463,27 @@ SELECT id, coursName, coursTypeId, courseVolume, educationFormId FROM Курсы
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_endDate", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "endDate", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_registrationNumber", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "registrationNumber", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_registrationNumber", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "registrationNumber", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_educationId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "educationId", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_educationId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "educationId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_coursId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "coursId", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_coursId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "coursId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[Обучение] ([teacherId], [startDate], [endDate], [registrationNumber], [educationId], [coursId]) VALUES (@teacherId, @startDate, @endDate, @registrationNumber, @educationId, @coursId);
-SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, coursId FROM Обучение WHERE (id = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[Обучение] ([teacherId], [startDate], [endDate], [registrationNumber], [coursId]) VALUES (@teacherId, @startDate, @endDate, @registrationNumber, @coursId);
+SELECT id, teacherId, startDate, endDate, registrationNumber, coursId FROM Обучение WHERE (id = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@teacherId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "teacherId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@startDate", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "startDate", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@endDate", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "endDate", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@registrationNumber", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "registrationNumber", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@educationId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "educationId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@coursId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "coursId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Обучение] SET [teacherId] = @teacherId, [startDate] = @startDate, [endDate] = @endDate, [registrationNumber] = @registrationNumber, [educationId] = @educationId, [coursId] = @coursId WHERE (([id] = @Original_id) AND ((@IsNull_teacherId = 1 AND [teacherId] IS NULL) OR ([teacherId] = @Original_teacherId)) AND ((@IsNull_startDate = 1 AND [startDate] IS NULL) OR ([startDate] = @Original_startDate)) AND ((@IsNull_endDate = 1 AND [endDate] IS NULL) OR ([endDate] = @Original_endDate)) AND ((@IsNull_registrationNumber = 1 AND [registrationNumber] IS NULL) OR ([registrationNumber] = @Original_registrationNumber)) AND ((@IsNull_educationId = 1 AND [educationId] IS NULL) OR ([educationId] = @Original_educationId)) AND ((@IsNull_coursId = 1 AND [coursId] IS NULL) OR ([coursId] = @Original_coursId)));
-SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, coursId FROM Обучение WHERE (id = @id)";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Обучение] SET [teacherId] = @teacherId, [startDate] = @startDate, [endDate] = @endDate, [registrationNumber] = @registrationNumber, [coursId] = @coursId WHERE (([id] = @Original_id) AND ((@IsNull_teacherId = 1 AND [teacherId] IS NULL) OR ([teacherId] = @Original_teacherId)) AND ((@IsNull_startDate = 1 AND [startDate] IS NULL) OR ([startDate] = @Original_startDate)) AND ((@IsNull_endDate = 1 AND [endDate] IS NULL) OR ([endDate] = @Original_endDate)) AND ((@IsNull_registrationNumber = 1 AND [registrationNumber] IS NULL) OR ([registrationNumber] = @Original_registrationNumber)) AND ((@IsNull_coursId = 1 AND [coursId] IS NULL) OR ([coursId] = @Original_coursId)));
+SELECT id, teacherId, startDate, endDate, registrationNumber, coursId FROM Обучение WHERE (id = @id)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@teacherId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "teacherId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@startDate", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "startDate", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@endDate", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "endDate", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@registrationNumber", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "registrationNumber", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@educationId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "educationId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@coursId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "coursId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_teacherId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "teacherId", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
@@ -5558,8 +5494,6 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_endDate", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "endDate", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_registrationNumber", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "registrationNumber", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_registrationNumber", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "registrationNumber", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_educationId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "educationId", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_educationId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "educationId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_coursId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "coursId", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_coursId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "coursId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -5569,7 +5503,7 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5578,8 +5512,8 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, coursI" +
-                "d FROM dbo.Обучение";
+            this._commandCollection[0].CommandText = "SELECT id, teacherId, startDate, endDate, registrationNumber, coursId FROM dbo.Об" +
+                "учение";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -5587,7 +5521,7 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.ОбучениеDataTable dataTable) {
+        public virtual int Fill(silverHa.ОбучениеDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5600,9 +5534,9 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.ОбучениеDataTable GetData() {
+        public virtual silverHa.ОбучениеDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.ОбучениеDataTable dataTable = new Курсы_ОбученяDataSet.ОбучениеDataTable();
+            silverHa.ОбучениеDataTable dataTable = new silverHa.ОбучениеDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5610,14 +5544,14 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.ОбучениеDataTable dataTable) {
+        public virtual int Update(silverHa.ОбучениеDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "Обучение");
         }
         
@@ -5640,7 +5574,7 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_id, global::System.Nullable<int> Original_teacherId, global::System.Nullable<global::System.DateTime> Original_startDate, global::System.Nullable<global::System.DateTime> Original_endDate, global::System.Nullable<int> Original_registrationNumber, global::System.Nullable<int> Original_educationId, global::System.Nullable<int> Original_coursId) {
+        public virtual int Delete(int Original_id, global::System.Nullable<int> Original_teacherId, global::System.Nullable<global::System.DateTime> Original_startDate, global::System.Nullable<global::System.DateTime> Original_endDate, global::System.Nullable<int> Original_registrationNumber, global::System.Nullable<int> Original_coursId) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_id));
             if ((Original_teacherId.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(0));
@@ -5674,21 +5608,13 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
                 this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[8].Value = global::System.DBNull.Value;
             }
-            if ((Original_educationId.HasValue == true)) {
+            if ((Original_coursId.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[10].Value = ((int)(Original_educationId.Value));
+                this.Adapter.DeleteCommand.Parameters[10].Value = ((int)(Original_coursId.Value));
             }
             else {
                 this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[10].Value = global::System.DBNull.Value;
-            }
-            if ((Original_coursId.HasValue == true)) {
-                this.Adapter.DeleteCommand.Parameters[11].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[12].Value = ((int)(Original_coursId.Value));
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[11].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[12].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -5710,7 +5636,7 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(global::System.Nullable<int> teacherId, global::System.Nullable<global::System.DateTime> startDate, global::System.Nullable<global::System.DateTime> endDate, global::System.Nullable<int> registrationNumber, global::System.Nullable<int> educationId, global::System.Nullable<int> coursId) {
+        public virtual int Insert(global::System.Nullable<int> teacherId, global::System.Nullable<global::System.DateTime> startDate, global::System.Nullable<global::System.DateTime> endDate, global::System.Nullable<int> registrationNumber, global::System.Nullable<int> coursId) {
             if ((teacherId.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = ((int)(teacherId.Value));
             }
@@ -5735,17 +5661,11 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
             else {
                 this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            if ((educationId.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[4].Value = ((int)(educationId.Value));
+            if ((coursId.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[4].Value = ((int)(coursId.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            if ((coursId.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[5].Value = ((int)(coursId.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -5767,7 +5687,7 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(global::System.Nullable<int> teacherId, global::System.Nullable<global::System.DateTime> startDate, global::System.Nullable<global::System.DateTime> endDate, global::System.Nullable<int> registrationNumber, global::System.Nullable<int> educationId, global::System.Nullable<int> coursId, int Original_id, global::System.Nullable<int> Original_teacherId, global::System.Nullable<global::System.DateTime> Original_startDate, global::System.Nullable<global::System.DateTime> Original_endDate, global::System.Nullable<int> Original_registrationNumber, global::System.Nullable<int> Original_educationId, global::System.Nullable<int> Original_coursId, int id) {
+        public virtual int Update(global::System.Nullable<int> teacherId, global::System.Nullable<global::System.DateTime> startDate, global::System.Nullable<global::System.DateTime> endDate, global::System.Nullable<int> registrationNumber, global::System.Nullable<int> coursId, int Original_id, global::System.Nullable<int> Original_teacherId, global::System.Nullable<global::System.DateTime> Original_startDate, global::System.Nullable<global::System.DateTime> Original_endDate, global::System.Nullable<int> Original_registrationNumber, global::System.Nullable<int> Original_coursId, int id) {
             if ((teacherId.HasValue == true)) {
                 this.Adapter.UpdateCommand.Parameters[0].Value = ((int)(teacherId.Value));
             }
@@ -5792,68 +5712,54 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
             else {
                 this.Adapter.UpdateCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            if ((educationId.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[4].Value = ((int)(educationId.Value));
+            if ((coursId.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[4].Value = ((int)(coursId.Value));
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
-            if ((coursId.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(coursId.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[5].Value = global::System.DBNull.Value;
-            }
-            this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(Original_id));
+            this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(Original_id));
             if ((Original_teacherId.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[7].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[8].Value = ((int)(Original_teacherId.Value));
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(Original_teacherId.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[7].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[8].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[7].Value = global::System.DBNull.Value;
             }
             if ((Original_startDate.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[10].Value = ((System.DateTime)(Original_startDate.Value));
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[9].Value = ((System.DateTime)(Original_startDate.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[10].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
             }
             if ((Original_endDate.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[12].Value = ((System.DateTime)(Original_endDate.Value));
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((System.DateTime)(Original_endDate.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[12].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
             }
             if ((Original_registrationNumber.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((int)(Original_registrationNumber.Value));
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((int)(Original_registrationNumber.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
-            }
-            if ((Original_educationId.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((int)(Original_educationId.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
             }
             if ((Original_coursId.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[18].Value = ((int)(Original_coursId.Value));
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[15].Value = ((int)(Original_coursId.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[18].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
             }
-            this.Adapter.UpdateCommand.Parameters[19].Value = ((int)(id));
+            this.Adapter.UpdateCommand.Parameters[16].Value = ((int)(id));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -5874,8 +5780,8 @@ SELECT id, teacherId, startDate, endDate, registrationNumber, educationId, cours
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(global::System.Nullable<int> teacherId, global::System.Nullable<global::System.DateTime> startDate, global::System.Nullable<global::System.DateTime> endDate, global::System.Nullable<int> registrationNumber, global::System.Nullable<int> educationId, global::System.Nullable<int> coursId, int Original_id, global::System.Nullable<int> Original_teacherId, global::System.Nullable<global::System.DateTime> Original_startDate, global::System.Nullable<global::System.DateTime> Original_endDate, global::System.Nullable<int> Original_registrationNumber, global::System.Nullable<int> Original_educationId, global::System.Nullable<int> Original_coursId) {
-            return this.Update(teacherId, startDate, endDate, registrationNumber, educationId, coursId, Original_id, Original_teacherId, Original_startDate, Original_endDate, Original_registrationNumber, Original_educationId, Original_coursId, Original_id);
+        public virtual int Update(global::System.Nullable<int> teacherId, global::System.Nullable<global::System.DateTime> startDate, global::System.Nullable<global::System.DateTime> endDate, global::System.Nullable<int> registrationNumber, global::System.Nullable<int> coursId, int Original_id, global::System.Nullable<int> Original_teacherId, global::System.Nullable<global::System.DateTime> Original_startDate, global::System.Nullable<global::System.DateTime> Original_endDate, global::System.Nullable<int> Original_registrationNumber, global::System.Nullable<int> Original_coursId) {
+            return this.Update(teacherId, startDate, endDate, registrationNumber, coursId, Original_id, Original_teacherId, Original_startDate, Original_endDate, Original_registrationNumber, Original_coursId, Original_id);
         }
     }
     
@@ -6067,7 +5973,7 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6085,7 +5991,7 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.ПользователиDataTable dataTable) {
+        public virtual int Fill(silverHa.ПользователиDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6098,9 +6004,9 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.ПользователиDataTable GetData() {
+        public virtual silverHa.ПользователиDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.ПользователиDataTable dataTable = new Курсы_ОбученяDataSet.ПользователиDataTable();
+            silverHa.ПользователиDataTable dataTable = new silverHa.ПользователиDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6108,14 +6014,14 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.ПользователиDataTable dataTable) {
+        public virtual int Update(silverHa.ПользователиDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "Пользователи");
         }
         
@@ -6532,7 +6438,7 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6549,7 +6455,7 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.ПреподавателиDataTable dataTable) {
+        public virtual int Fill(silverHa.ПреподавателиDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6562,9 +6468,9 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.ПреподавателиDataTable GetData() {
+        public virtual silverHa.ПреподавателиDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.ПреподавателиDataTable dataTable = new Курсы_ОбученяDataSet.ПреподавателиDataTable();
+            silverHa.ПреподавателиDataTable dataTable = new silverHa.ПреподавателиDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6572,14 +6478,14 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.ПреподавателиDataTable dataTable) {
+        public virtual int Update(silverHa.ПреподавателиDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "Преподаватели");
         }
         
@@ -6856,7 +6762,7 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6873,7 +6779,7 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.РолиDataTable dataTable) {
+        public virtual int Fill(silverHa.РолиDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6886,9 +6792,9 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.РолиDataTable GetData() {
+        public virtual silverHa.РолиDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.РолиDataTable dataTable = new Курсы_ОбученяDataSet.РолиDataTable();
+            silverHa.РолиDataTable dataTable = new silverHa.РолиDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6896,14 +6802,14 @@ SELECT id, firstName, midleName, lastName, dateOfBirth, authId, roleId FROM По
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.РолиDataTable dataTable) {
+        public virtual int Update(silverHa.РолиDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "Роли");
         }
         
@@ -7180,7 +7086,7 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString;
+            this._connection.ConnectionString = global::Повышение_квалификации.Properties.Settings.Default.silverha_fkd6qConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7197,7 +7103,7 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(Курсы_ОбученяDataSet.ФормаОбученияDataTable dataTable) {
+        public virtual int Fill(silverHa.ФормаОбученияDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7210,9 +7116,9 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual Курсы_ОбученяDataSet.ФормаОбученияDataTable GetData() {
+        public virtual silverHa.ФормаОбученияDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            Курсы_ОбученяDataSet.ФормаОбученияDataTable dataTable = new Курсы_ОбученяDataSet.ФормаОбученияDataTable();
+            silverHa.ФормаОбученияDataTable dataTable = new silverHa.ФормаОбученияDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7220,14 +7126,14 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet.ФормаОбученияDataTable dataTable) {
+        public virtual int Update(silverHa.ФормаОбученияDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(Курсы_ОбученяDataSet dataSet) {
+        public virtual int Update(silverHa dataSet) {
             return this.Adapter.Update(dataSet, "ФормаОбучения");
         }
         
@@ -7346,182 +7252,6 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
         public virtual int Update(string educationType, int Original_id, string Original_educationType) {
             return this.Update(educationType, Original_id, Original_educationType, Original_id);
-        }
-    }
-    
-    /// <summary>
-    ///Represents the connection and commands used to retrieve and save data.
-    ///</summary>
-    [global::System.ComponentModel.DesignerCategoryAttribute("code")]
-    [global::System.ComponentModel.ToolboxItem(true)]
-    [global::System.ComponentModel.DataObjectAttribute(true)]
-    [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
-        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-    [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class QueriesTableAdapter : global::System.ComponentModel.Component {
-        
-        private global::System.Data.IDbCommand[] _commandCollection;
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        protected global::System.Data.IDbCommand[] CommandCollection {
-            get {
-                if ((this._commandCollection == null)) {
-                    this.InitCommandCollection();
-                }
-                return this._commandCollection;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.IDbCommand[2];
-            this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString);
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandText = "dbo.registration";
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandType = global::System.Data.CommandType.StoredProcedure;
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@log", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@pass", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@firstName", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@middleName", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@lastName", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dateOfBirth", global::System.Data.SqlDbType.DateTime, 8, global::System.Data.ParameterDirection.Input, 23, 3, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Connection = new global::System.Data.SqlClient.SqlConnection(global::Повышение_квалификации.Properties.Settings.Default.Курсы_ОбученяConnectionString);
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandText = "dbo.registrationByAdmin";
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandType = global::System.Data.CommandType.StoredProcedure;
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@log", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@pass", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@firstName", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@middleName", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@lastName", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@dateOfBirth", global::System.Data.SqlDbType.DateTime, 8, global::System.Data.ParameterDirection.Input, 23, 3, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@role", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int registration(string log, string pass, string firstName, string middleName, string lastName, global::System.Nullable<global::System.DateTime> dateOfBirth) {
-            global::System.Data.SqlClient.SqlCommand command = ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[0]));
-            if ((log == null)) {
-                command.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[1].Value = ((string)(log));
-            }
-            if ((pass == null)) {
-                command.Parameters[2].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[2].Value = ((string)(pass));
-            }
-            if ((firstName == null)) {
-                command.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[3].Value = ((string)(firstName));
-            }
-            if ((middleName == null)) {
-                command.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[4].Value = ((string)(middleName));
-            }
-            if ((lastName == null)) {
-                command.Parameters[5].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[5].Value = ((string)(lastName));
-            }
-            if ((dateOfBirth.HasValue == true)) {
-                command.Parameters[6].Value = ((System.DateTime)(dateOfBirth.Value));
-            }
-            else {
-                command.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
-            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                command.Connection.Open();
-            }
-            int returnValue;
-            try {
-                returnValue = command.ExecuteNonQuery();
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    command.Connection.Close();
-                }
-            }
-            return returnValue;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int registrationByAdmin(string log, string pass, string firstName, string middleName, string lastName, global::System.Nullable<global::System.DateTime> dateOfBirth, global::System.Nullable<int> role) {
-            global::System.Data.SqlClient.SqlCommand command = ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[1]));
-            if ((log == null)) {
-                command.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[1].Value = ((string)(log));
-            }
-            if ((pass == null)) {
-                command.Parameters[2].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[2].Value = ((string)(pass));
-            }
-            if ((firstName == null)) {
-                command.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[3].Value = ((string)(firstName));
-            }
-            if ((middleName == null)) {
-                command.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[4].Value = ((string)(middleName));
-            }
-            if ((lastName == null)) {
-                command.Parameters[5].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[5].Value = ((string)(lastName));
-            }
-            if ((dateOfBirth.HasValue == true)) {
-                command.Parameters[6].Value = ((System.DateTime)(dateOfBirth.Value));
-            }
-            else {
-                command.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            if ((role.HasValue == true)) {
-                command.Parameters[7].Value = ((int)(role.Value));
-            }
-            else {
-                command.Parameters[7].Value = global::System.DBNull.Value;
-            }
-            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
-            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                command.Connection.Open();
-            }
-            int returnValue;
-            try {
-                returnValue = command.ExecuteNonQuery();
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    command.Connection.Close();
-                }
-            }
-            return returnValue;
         }
     }
     
@@ -7777,7 +7507,7 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateUpdatedRows(Курсы_ОбученяDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(silverHa dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._авторизацияTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Авторизация.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -7859,7 +7589,7 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateInsertedRows(Курсы_ОбученяDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(silverHa dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._авторизацияTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Авторизация.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -7933,7 +7663,7 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateDeletedRows(Курсы_ОбученяDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(silverHa dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._обучениеTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.Обучение.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -8031,7 +7761,7 @@ SELECT id, educationType FROM ФормаОбучения WHERE (id = @id)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        public virtual int UpdateAll(Курсы_ОбученяDataSet dataSet) {
+        public virtual int UpdateAll(silverHa dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }

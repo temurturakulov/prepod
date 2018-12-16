@@ -64,44 +64,50 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateUser.cs">
+    <Compile Include="Forms\CreateUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateUser.Designer.cs">
+    <Compile Include="Forms\CreateUser.Designer.cs">
       <DependentUpon>CreateUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data\User.cs" />
     <Compile Include="DbWorker.cs" />
-    <Compile Include="DeleteUser.cs">
+    <Compile Include="Forms\DeleteUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteUser.Designer.cs">
+    <Compile Include="Forms\DeleteUser.Designer.cs">
       <DependentUpon>DeleteUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="silverHa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>silverHa.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Templater.cs" />
-    <Compile Include="UpdateUser.cs">
+    <Compile Include="Forms\UpdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateUser.Designer.cs">
+    <Compile Include="Forms\UpdateUser.Designer.cs">
       <DependentUpon>UpdateUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Выбор курсов.cs">
+    <Compile Include="Forms\Выбор курсов.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Выбор курсов.Designer.cs">
+    <Compile Include="Forms\Выбор курсов.Designer.cs">
       <DependentUpon>Выбор курсов.cs</DependentUpon>
     </Compile>
-    <Compile Include="ВыборПользователя.cs">
+    <Compile Include="Forms\ВыборПользователя.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ВыборПользователя.Designer.cs">
+    <Compile Include="Forms\ВыборПользователя.Designer.cs">
       <DependentUpon>ВыборПользователя.cs</DependentUpon>
     </Compile>
     <Compile Include="Курсы_ОбученяDataSet.Designer.cs">
@@ -109,34 +115,34 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Курсы_ОбученяDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="МенюАдминистратора.cs">
+    <Compile Include="Forms\МенюАдминистратора.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="МенюАдминистратора.Designer.cs">
+    <Compile Include="Forms\МенюАдминистратора.Designer.cs">
       <DependentUpon>МенюАдминистратора.cs</DependentUpon>
     </Compile>
-    <Compile Include="МенюКадровика.cs">
+    <Compile Include="Forms\МенюКадровика.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="МенюКадровика.Designer.cs">
+    <Compile Include="Forms\МенюКадровика.Designer.cs">
       <DependentUpon>МенюКадровика.cs</DependentUpon>
     </Compile>
-    <Compile Include="МенюМетодиста.cs">
+    <Compile Include="Forms\МенюМетодиста.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="МенюМетодиста.Designer.cs">
+    <Compile Include="Forms\МенюМетодиста.Designer.cs">
       <DependentUpon>МенюМетодиста.cs</DependentUpon>
     </Compile>
-    <Compile Include="МенюПреподавателя.cs">
+    <Compile Include="Forms\МенюПреподавателя.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="МенюПреподавателя.Designer.cs">
+    <Compile Include="Forms\МенюПреподавателя.Designer.cs">
       <DependentUpon>МенюПреподавателя.cs</DependentUpon>
     </Compile>
-    <Compile Include="ОдобритьКурс.cs">
+    <Compile Include="Forms\ОдобритьКурс.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ОдобритьКурс.Designer.cs">
+    <Compile Include="Forms\ОдобритьКурс.Designer.cs">
       <DependentUpon>ОдобритьКурс.cs</DependentUpon>
     </Compile>
     <Compile Include="повышение_квалифDataSet.Designer.cs">
@@ -149,31 +155,31 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>повышение_квалифDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="ПросмотКурсов.cs">
+    <Compile Include="Forms\ПросмотКурсов.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ПросмотКурсов.Designer.cs">
+    <Compile Include="Forms\ПросмотКурсов.Designer.cs">
       <DependentUpon>ПросмотКурсов.cs</DependentUpon>
     </Compile>
-    <Compile Include="Справка.cs">
+    <Compile Include="Forms\Справка.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Справка.Designer.cs">
+    <Compile Include="Forms\Справка.Designer.cs">
       <DependentUpon>Справка.cs</DependentUpon>
     </Compile>
-    <Compile Include="СформироватьОтчет.cs">
+    <Compile Include="Forms\СформироватьОтчет.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="СформироватьОтчет.Designer.cs">
+    <Compile Include="Forms\СформироватьОтчет.Designer.cs">
       <DependentUpon>СформироватьОтчет.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CreateUser.resx">
+    <EmbeddedResource Include="Forms\CreateUser.resx">
       <DependentUpon>CreateUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteUser.resx">
+    <EmbeddedResource Include="Forms\DeleteUser.resx">
       <DependentUpon>DeleteUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -186,39 +192,40 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UpdateUser.resx">
+    <EmbeddedResource Include="Forms\UpdateUser.resx">
       <DependentUpon>UpdateUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Выбор курсов.resx">
+    <EmbeddedResource Include="Forms\Выбор курсов.resx">
       <DependentUpon>Выбор курсов.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ВыборПользователя.resx">
+    <EmbeddedResource Include="Forms\ВыборПользователя.resx">
       <DependentUpon>ВыборПользователя.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="МенюАдминистратора.resx">
+    <EmbeddedResource Include="Forms\МенюАдминистратора.resx">
       <DependentUpon>МенюАдминистратора.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="МенюКадровика.resx">
+    <EmbeddedResource Include="Forms\МенюКадровика.resx">
       <DependentUpon>МенюКадровика.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="МенюМетодиста.resx">
+    <EmbeddedResource Include="Forms\МенюМетодиста.resx">
       <DependentUpon>МенюМетодиста.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="МенюПреподавателя.resx">
+    <EmbeddedResource Include="Forms\МенюПреподавателя.resx">
       <DependentUpon>МенюПреподавателя.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ОдобритьКурс.resx">
+    <EmbeddedResource Include="Forms\ОдобритьКурс.resx">
       <DependentUpon>ОдобритьКурс.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ПросмотКурсов.resx">
+    <EmbeddedResource Include="Forms\ПросмотКурсов.resx">
       <DependentUpon>ПросмотКурсов.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Справка.resx">
+    <EmbeddedResource Include="Forms\Справка.resx">
       <DependentUpon>Справка.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="СформироватьОтчет.resx">
+    <EmbeddedResource Include="Forms\СформироватьОтчет.resx">
       <DependentUpon>СформироватьОтчет.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include=".gitignore" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -229,6 +236,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="silverHa.xsc">
+      <DependentUpon>silverHa.xsd</DependentUpon>
+    </None>
+    <None Include="silverHa.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>silverHa.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="silverHa.xss">
+      <DependentUpon>silverHa.xsd</DependentUpon>
+    </None>
     <None Include="Template\шаблон.docx" />
     <None Include="Курсы_ОбученяDataSet.xsc">
       <DependentUpon>Курсы_ОбученяDataSet.xsd</DependentUpon>

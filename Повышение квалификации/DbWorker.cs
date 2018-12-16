@@ -79,6 +79,16 @@ namespace Повышение_квалификации
         }
 
         /// <summary>
+        /// Получить стороку подключения
+        /// </summary>
+        /// <returns></returns>
+        public SqlConnection GetConnection()
+        {
+            return new SqlConnection(_connectionString);
+        }
+
+
+        /// <summary>
         /// Возвращает результаты для формирования справки о курсах
         /// </summary>
         /// <returns></returns>
@@ -154,13 +164,12 @@ namespace Повышение_квалификации
                                   string middleName, string lastName, DateTime time, int role)
         {
             int results = -1;
+            registrQuery = string.Format(registrQuery, login, password, firstName,
+                                             middleName, lastName, time.Date.ToString(), role);
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand command = new SqlCommand(registrQuery))
             {
-                con.Open();
-                registrQuery = string.Format(registrQuery, login, password, firstName,
-                                             middleName, lastName, time.Date.ToString(),role);
-
+                con.Open();                
                 command.Connection = con;
                 results = command.ExecuteNonQuery();
             }
@@ -241,6 +250,31 @@ namespace Повышение_квалификации
             }
 
             return id;
+        }
+
+        /// <summary>
+        /// Добавить курс
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="coursTypeId"></param>
+        /// <param name="coursVolume"></param>
+        /// <param name="educationFormId"></param>
+        public void AddCours(string name, int coursTypeId, int coursVolume, int educationFormId)
+        {
+            string query = @"Insert [silverha_fkd6q].[dbo].[Курсы](coursName,coursTypeId,courseVolume,educationFormId)
+                            values(N'{0}',{1},{2},{3});";
+
+            query = string.Format(query, name, coursTypeId, coursVolume, educationFormId);
+            int results = 0;
+
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand command = new SqlCommand(query))
+            {
+                con.Open();
+                command.Connection = con;
+                results = command.ExecuteNonQuery();
+            }
+
         }
     }
 }
