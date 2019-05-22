@@ -73,6 +73,16 @@ namespace Повышение_квалификации.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap main_backgound {
+            get {
+                object obj = ResourceManager.GetObject("main_backgound", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_32323 {
             get {
                 object obj = ResourceManager.GetObject("Untitled-32323", resourceCulture);

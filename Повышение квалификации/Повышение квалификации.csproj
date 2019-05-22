@@ -318,6 +318,7 @@
     <None Include="Resources\Untitled-5.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\main_backgound.PNG" />
     <Content Include="повышение квалиф.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
