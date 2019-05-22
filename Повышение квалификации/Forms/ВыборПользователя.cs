@@ -94,7 +94,7 @@ namespace Повышение_квалификации
 
         }
 
-        private void Register(object sender, EventArgs e)
+        /*private void Register(object sender, EventArgs e)
         {
             string id = dbWorker.GetAuthtorizationId(textBox6.Text);
             
@@ -106,6 +106,6 @@ namespace Повышение_квалификации
             {
                 MessageBox.Show("Логин занят другим пользователем");
             }
-        }
+        }*/
     }
 }
